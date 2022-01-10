@@ -1,21 +1,21 @@
 {
-    "name": "kradwhite/mytarget-oauth2",
+    "name": "nameewgeniy/mytarget-oauth2",
     "type": "library",
     "description": "MyTarget oauth2 api library",
     "keywords": [
-        "kradwhite",
+        "nameewgeniy",
         "myTarget",
 		"api",
         "oauth2",
         "token"
     ],
-    "homepage": "https://github.com/kradwhite/mytarget-oauth2",
+    "homepage": "https://github.com/nameewgeniy/mytarget-oauth2",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "kradwhite",
-            "email": "kradwhite@mail.ru",
-            "homepage": "https://github.com/kradwhite",
+            "name": "nameewgeniy",
+            "email": "nameewgeniy@mail.ru",
+            "homepage": "https://github.com/nameewgeniy",
             "role": "Developer"
         }
     ],
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "kradwhite\\myTarget\\api\\oauth2\\": "src"
+            "nameewgeniy\\myTarget\\api\\oauth2\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "kradwhite\\myTarget\\api\\oauth2\\tests\\": "tests"
+            "nameewgeniy\\myTarget\\api\\oauth2\\tests\\": "tests"
         }
     },
     "scripts": {
