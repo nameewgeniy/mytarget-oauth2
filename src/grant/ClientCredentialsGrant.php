@@ -5,15 +5,15 @@
  * Time: 21:25
  */
 
-namespace kradwhite\myTarget\api\oauth2\grant;
+namespace nameewgeniy\myTarget\api\oauth2\grant;
 
 use GuzzleHttp\Exception\GuzzleException;
-use kradwhite\myTarget\api\oauth2\Transport;
+use nameewgeniy\myTarget\api\oauth2\Transport;
 
 /**
  * Client Credentials Grant используется для работы с данными собственного аккаунта через API
  * Class ClientCredentialsGrant
- * @package kradwhite\myTarget\api\oauth2\grant
+ * @package nameewgeniy\myTarget\api\oauth2\grant
  * @link https://target.my.com/adv/api-marketing/doc/authorization
  */
 class ClientCredentialsGrant

@@ -1,7 +1,7 @@
 # MyTarget Oauth2
 - Получение токенов для взаимодействия с [MyTarget Api](https://target.my.com/adv/api-marketing).
 - Оффициальная документация по получению токенов [MyTarget Oauth2](https://target.my.com/adv/api-marketing/doc/authorization).
-- После получения токена, его можно использовать для управления ресурсами, воспользовавшись смежной библиотекой [kradwhite/mytarget-api-client](https://github.com/kradwhite/mytarget-api-client)
+- После получения токена, его можно использовать для управления ресурсами, воспользовавшись смежной библиотекой [nameewgeniy/mytarget-api-client](https://github.com/nameewgeniy/mytarget-api-client)
 
 ## Требования
  * PHP 7.0 и выше
@@ -13,7 +13,7 @@
     ...
     "require": {
         ...
-        "kradwhite/mytarget-oauth2": "*"
+        "nameewgeniy/mytarget-oauth2": "*"
     }
     ...
 }
@@ -21,7 +21,7 @@
 
 ## Использование
 ```php
-use kradwhite\myTarget\oauth2\Oauth2;
+use nameewgeniy\myTarget\oauth2\Oauth2;
 
 // инициализация клиента с конфигурацией по умолчанию
 $oauth2 = new Oauth2();
@@ -65,9 +65,9 @@ $token = $oauth2->agencyCredentialsGrant(
 
 ```php
 // получение токена по коду
-use kradwhite\myTarget\oauth2\Scopes;
+use nameewgeniy\myTarget\oauth2\Scopes;
 
-// в классе kradwhite\myTarget\oauth2\Scopes существует несколько методов с различными
+// в классе nameewgeniy\myTarget\oauth2\Scopes существует несколько методов с различными
 // вариантами прав и константы для своего набора прав.
 $scopes = Scopes::all();
 

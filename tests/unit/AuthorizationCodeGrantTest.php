@@ -1,8 +1,8 @@
 <?php
 
-namespace kradwhite\myTarget\api\oauth2\tests\unit;
+namespace nameewgeniy\myTarget\api\oauth2\tests\unit;
 
-use kradwhite\myTarget\api\oauth2\grant\AuthorizationCodeGrant;
+use nameewgeniy\myTarget\api\oauth2\grant\AuthorizationCodeGrant;
 
 class AuthorizationCodeGrantTest extends \Codeception\Test\Unit
 {

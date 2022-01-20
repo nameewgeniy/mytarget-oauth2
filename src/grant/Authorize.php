@@ -5,15 +5,15 @@
  * Time: 20:04
  */
 
-namespace kradwhite\myTarget\api\oauth2\grant;
+namespace nameewgeniy\myTarget\api\oauth2\grant;
 
 use GuzzleHttp\Exception\GuzzleException;
-use kradwhite\myTarget\api\oauth2\Transport;
+use nameewgeniy\myTarget\api\oauth2\Transport;
 
 /**
  * Запрос на получение кода, который будет отправлен по адресу заданному параметром "redirect_uri" при регистрации клиента
  * Class Authorize
- * @package kradwhite\myTarget\api\oauth2\authorization_code_grant
+ * @package nameewgeniy\myTarget\api\oauth2\authorization_code_grant
  * @link https://target.my.com/adv/api-marketing/doc/authorization
  */
 class Authorize

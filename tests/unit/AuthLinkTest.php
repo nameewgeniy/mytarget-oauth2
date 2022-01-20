@@ -7,14 +7,14 @@
 
 declare (strict_types=1);
 
-namespace kradwhite\myTarget\api\oauth2\tests\unit;
+namespace nameewgeniy\myTarget\api\oauth2\tests\unit;
 
-use kradwhite\myTarget\api\oauth2\Oauth2;
-use kradwhite\myTarget\api\oauth2\Scopes;
+use nameewgeniy\myTarget\api\oauth2\Oauth2;
+use nameewgeniy\myTarget\api\oauth2\Scopes;
 
 /**
  * Class AuthLinkTest
- * @package kradwhite\myTarget\api\oauth2\tests\unit
+ * @package nameewgeniy\myTarget\api\oauth2\tests\unit
  */
 class AuthLinkTest extends \Codeception\Test\Unit
 {
